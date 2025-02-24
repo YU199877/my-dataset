@@ -36,29 +36,14 @@
         const dataUrl = 'https://raw.githubusercontent.com/YU199877/my-dataset/main/上海市社区卫生服务中心基本信息.json';
 
         // 使用 fetch API 获取数据
-        fetch(dataUrl)
-            .then(response => response.json()) // 解析JSON数据
-            .then(data => {
-                // 获取表格的tbody部分
-                const tableBody = document.querySelector('#data-table tbody');
-
-                // 假设您的数据文件是一个数组，并且每个对象代表一个社区卫生服务中心
-                data.forEach(item => {
-                    const row = document.createElement('tr');
-                    
-                    // 创建并插入表格数据
-                    row.innerHTML = `
-                        <td>${item.机构名称}</td>
-                        <td>${item.地址}</td>
-                        <td>${item.联系电话}</td>
-                        <td>${item.传真}</td>
-                    `;
-
-                    // 将行添加到表格中
-                    tableBody.appendChild(row);
-                });
-            })
-            .catch(error => console.error('加载数据失败:', error));
+       fetch('https://raw.githubusercontent.com/YU199877/my-dataset/main/上海市社区卫生服务中心基本信息.json')
+  .then(response => response.json())
+  .then(data => {
+    // 在页面上显示数据
+    console.log(data);
+    // 你可以用更复杂的方式将数据动态展示到网页上
+  })
+  .catch(error => console.error('Error loading the JSON data: ', error));
     </script>
 </body>
 </html>
