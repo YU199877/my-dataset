@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "深圳市残疾人康复服务定点机构",
+  "identifier": "29200/03501003",
+  "description": "该数据集提供了深圳市内针对残疾人群体的专业康复服务机构的详细信息，包括序号、单位名称、服务内容、详细地址、联系电话、所在区县、备注等数据项。",
+  "keywords": "残疾人, 康复服务, 定点机构",
+  "category": "医疗卫生",
+  "industry": "卫生和社会工作",
+  "spatialCoverage": "市辖区",
+  "temporalCoverage": {
+    "@type": "DateTime",
+    "startDate": "2017-12-13",
+    "endDate": "2024-05-09"
+  },
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": ["CSV", "XLS", "JSON", "XML", "RDF"],
+    "url": "https://opendata.sz.gov.cn/data/dataSet/toDataDetails/29200_03501003",
+    "contentUrl": "https://opendata.sz.gov.cn/data/dataSet/toDataDetails/29200_03501003"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "accessMode": "无条件开放",
+  "provider": {
+    "@type": "Organization",
+    "name": "深圳市残疾人联合会",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+86 755 88125143",
+      "email": "opendata@sz.gov.cn"
+    }
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "深圳市残疾人联合会",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+86 755 88125143",
+      "email": "opendata@sz.gov.cn"
+    }
+  },
+  "datePublished": "2017-12-13",
+  "dateModified": "2024-05-09",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "contentUrl": "https://opendata.sz.gov.cn/data/dataSet/toDataDetails/29200_03501003",
+    "viewCount": 15049,
+    "downloadCount": 265
+  }
+}

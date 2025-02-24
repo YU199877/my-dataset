@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "上海市社区卫生服务中心基本信息",
+  "description": "该数据集包含上海市社区卫生服务中心的基本信息，如机构名称、地址、联系电话及传真等。提供这些信息可以帮助用户获取社区卫生服务的详细联系方式，以便更好地使用本地医疗资源。",
+  "keywords": ["社区卫生", "SODA2022", "SODA2023"],
+  "url": "https://data.sh.gov.cn/view/detail/index.html?type=cp&&id=AB8002014035&&dataset_name=%5Bobject%20HTMLHeadingElement%5D",
+  "identifier": "",
+  "publisher": {
+    "@type": "Organization",
+    "name": "上海市卫生健康委员会（上海市中医药管理局）",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Email",
+      "email": "sjkf@shanghai.gov.cn"
+    }
+  },
+   "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": ["CSV", "JSON", "RDF", "XLS","XML"],
+    "url": "https://data.sh.gov.cn/view/detail/index.html?type=cp&&id=AB8002014035&&dataset_name=%5Bobject%20HTMLHeadingElement%5D",
+    "contentUrl": "https://data.sh.gov.cn/view/detail/index.html?type=cp&&id=AB8002014035&&dataset_name=%5Bobject%20HTMLHeadingElement%5D"
+  },
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+  "themeCategory": "医疗卫生",
+  "industryCategory": "卫生和社会工作",
+  "applicationCategory": "医疗健康",
+  "datePublished": "2014-11-27",
+  "dateModified": "2024-08-05",
+  "version": "2024",
+  "frequency": "Annually",
+  "accessMode": "Download",
+  "accessModeSufficient": "True",
+  "usageInfo": "开放数据，无条件开放",
+  "mainEntityOfPage": "https://data.sh.gov.cn/view/detail/index.html?type=cp&&id=AB8002014035&&dataset_name=%5Bobject%20HTMLHeadingElement%5D",
+  "totalDownload": 2469,
+  "totalView": 7526,
+  "creator": {
+    "@type": "Organization",
+    "name": "上海市卫生健康委员会（上海市中医药管理局）"
+  }
+}
